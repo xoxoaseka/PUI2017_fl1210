@@ -13,6 +13,7 @@ Create an alias pui2017 to move to the directory above using the env.variable $P
 alias pui2017="cd $PUI2017"
 ```
 Save the setting in .bashrc.
+
 Below is the screenshot of .bashrc file.
 
 ![Alt text](screenshots/env_var.png)
