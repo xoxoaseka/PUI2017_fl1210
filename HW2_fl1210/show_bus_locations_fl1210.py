@@ -13,11 +13,11 @@ if not len(sys.argv) == 3:
     sys.exit()
 
 # get the MTA key and bus line from the input arguments    
-MTAKEY = sys.argv[1]
+mtakey = sys.argv[1]
 busline = sys.argv[2]
 
 # download the data from MTA
-url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=" + MTAKEY + "&VehicleMonitoringDetailLevel=calls&LineRef=" + busline
+url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=" + mtakey + "&VehicleMonitoringDetailLevel=calls&LineRef=" + busline
 
 response = urllib.urlopen(url)
 data = response.read().decode("utf-8")
