@@ -28,6 +28,7 @@ BusNum = len(BusActivity)
 
 try:
     with open(sys.argv[3], "w") as fhandler:
+        fhandler.write("Latitude,Longitude,Stop Name,Stop Status\n")
         for i in range(BusNum):
             latitude = BusActivity[i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
             longitude = BusActivity[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
