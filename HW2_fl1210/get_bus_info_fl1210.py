@@ -1,11 +1,11 @@
-import pylab as pl
+from __future__ import print_function
 import os
 import json
+import sys
 try:
     import urllib2 as urllib
 except ImportError:
     import urllib.request as urllib
-import sys
 
 # examine the format of input arguments
 if not len(sys.argv) == 4:
