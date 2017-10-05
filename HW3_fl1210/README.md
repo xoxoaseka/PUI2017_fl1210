@@ -1,6 +1,6 @@
 # PUI2017 HW 3
 
-I did the work follow Prof. Bianco's sample code. I also refer to google and NumPy Reference for help.The work is done individually.
+I did the work follow Prof. Bianco's example. I also refer to google and NumPy Reference for help.The work is done individually.
 
 ## Assignment 1: Write an ipython notebook that demonstrates visually in a data-driven way the Central Limit Theorem. 
 
