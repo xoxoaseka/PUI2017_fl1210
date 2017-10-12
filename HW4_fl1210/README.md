@@ -2,7 +2,7 @@
 
 ## Assignment 1: Review your classmate's Citibike project proposal
 
-I did assignment 1 by myself.
+I did assignment 1 by myself.I reviewed Imran Khan's homework(iuk202, iuk0162).
 
 ## Assignment 2: Literature choices of statistical tests
 
