@@ -21,7 +21,9 @@ Logistic regression	| 1, Source of dental knowledge| Categorical | 1, Oral healt
 I did assignment 3 by myself.
 
 I did Z test and chi-sq test for two cases.
+
 1: "Ever employed in a CEO transitional job" data
+
 2: "Convicted of a felony after 3 years" data.
 
 ## Assignment 4: Tests of correlation using the scipy package with citibike data.
@@ -32,6 +34,6 @@ I used KS, Pearson's, Spearman's tests to examine if the distributions in the ca
 
 2) age of bikers for trips originating in Manhattan and in Brooklyn
 
-Thanks to Zhiao Zhou and Yukun Wan who introduced the methods of using ArcGIS to filter the coordinates that fall into the polygon of different boroughs by importing shapefile and the citibike data to ArcGIS. MN.csv and BK,csv are filted data using ArcGIS.
+Thanks to Zhiao Zhou and Yukun Wan who introduced the methods of filtering the coordinates that fall into the polygon of different boroughs by importing shapefile and the citibike data to ArcGIS. MN.csv and BK,csv are filted data using ArcGIS.
 
 
