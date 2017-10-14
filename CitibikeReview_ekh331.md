@@ -49,4 +49,8 @@ In the end, we are dealing with categorical data. We are categorizing by "young"
 
 Since we have these categorical data, we can ask if the data match an expected ratio (as in the hypotheses). We should assume no a priori expectation, as the null hypothesis should assume equal ratios between groups. There are two variables, and both variables have two categories ("old/young" and "day/night"). So, the desired statistical test is the <b>chi-square test for association</b>.
 
+# 4. Suggestions
+
+This question, while interesting, has many similar applications by itself. If one goes through and writes the code to perform these tests, it would be very easy to also consider other personal factors regarding day and night ridership. For example, it could be suspected that women are also less likely to ride at night than men are. Controlling for other personal factors like sex would be an interesting addition to this project. In addition, it could be interesting to see where given populations are more or less likely to ride at night by incorporating geographic data.
+
 
