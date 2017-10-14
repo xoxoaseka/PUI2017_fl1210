@@ -8,7 +8,7 @@
 3. Choose an appropriate test to test the null hypothesis
 4. Provide additional comments, suggestions, and a suggested appropriate statistical test with justification.
 
-# Hypothesis review
+# 1. Hypothesis review
 The idea to be investgated is the following:
 "Older people are less likely than younger people to use citibikes overnight (19:00-5:00)"
 This is an interesting question, and I think it will come down to what designates "older"  versus "younger" people.
@@ -29,6 +29,26 @@ The student chose an alpha of 0.05, meaning that under the null hypothesis, the 
 
 <p>
 
-# Data review
+# 2. Data review
 
-The idea of older people having a different probability than younger people of 
+The idea of older people having a different probability than younger people of riding Citibikes at certain times of day 
+requires the use of age data and time data. Since we only care about when someone is attempting
+to use a bike, we can only consider the start time of the citibike trip.
+
+This is accurately reflected in the data chosen. The data are also cleaned and processed to have
+only relevant information (age and trip start date in datetime format). This is all that is needed.
+
+<p>
+
+# 3. Choosing a Statistical Test
+<p>
+The null hypothesis is that these ratios are equal. We need to come up with some statistic with a dstribution under the null hypothesis. Let's say the null hypothesis is true.
+We look at old people riding bikes. Some are riding at night, some in the morning/day. There is a fraction for each. The same applies to young people. Since we only care about night riders, there is an "old people" Bernoulli distribution and a "young people" Bernoulli distribution of ridership (binary yes/no to answer the question "is the ride at night?" for young people and old people). 
+
+If the null hypothesis were true, there would only be one distribution from which the samples of both young and olf riders are pulled. So, we should check to see if the samples come from the same or different populations (is there only one distribution or are there two?).
+
+The data are obviously not normal-- a person is either a night rider or they are not-- so a non-parametric test is required. 
+
+There is one treatment variable, and the data are unpaired. There are at least 30 observations per sample, as we are dealing with many Citibike trips, so the desired statistical test is the <b>z-test for unpaired data</b>.
+
+
