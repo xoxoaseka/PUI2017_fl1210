@@ -45,10 +45,8 @@ only relevant information (age and trip start date in datetime format). This is 
 The null hypothesis is that these ratios are equal. We need to come up with some statistic with a dstribution under the null hypothesis. Let's say the null hypothesis is true.
 We look at old people riding bikes. Some are riding at night, some in the morning/day. There is a fraction for each. The same applies to young people. Since we only care about night riders, there is an "old people" Bernoulli distribution and a "young people" Bernoulli distribution of ridership (binary yes/no to answer the question "is the ride at night?" for young people and old people). 
 
-If the null hypothesis were true, there would only be one distribution from which the samples of both young and olf riders are pulled. So, we should check to see if the samples come from the same or different populations (is there only one distribution or are there two?).
+In the end, we are dealing with categorical data. We are categorizing by "young" and "old" and then also by "day" or "night."
 
-The data are obviously not normal-- a person is either a night rider or they are not-- so a non-parametric test is required. 
-
-There is one treatment variable, and the data are unpaired. There are at least 30 observations per sample, as we are dealing with many Citibike trips, so the desired statistical test is the <b>z-test for unpaired data</b>.
+Since we have these categorical data, we can ask if the data match an expected ratio (as in the hypotheses). We should assume no a priori expectation, as the null hypothesis should assume equal ratios between groups. There are two variables, and both variables have two categories ("old/young" and "day/night"). So, the desired statistical test is the <b>chi-square test for association</b>.
 
 
