@@ -16,4 +16,4 @@ Thanks for Yukun explained the meaning of weights in WLS function to me.
 
 In this assignment, I plotted scatter plots to show the relationship between different variables.
 
-I used linear regrattion to fit the number of mass shootings per person as a function of average total all civilian firearms per person.
+I used linear regression to fit the number of mass shootings per person as a function of average total all civilian firearms per person.
