@@ -12,6 +12,8 @@ I used 1) KS 2) AD 3) KL 4) Pearson's chisq tests to show that with the increase
 
 ## Assignment 3: investigate linear relationships between fire arm possession, homicides by fire arms, and mass shootings for different countries, considering also the country GDP
 
+Thanks for Yukun explained the meaning of weights in WLS function to me.
+
 Downloaded data from websites.
 
 Plotted scatter plots to show the relationship between variables.
