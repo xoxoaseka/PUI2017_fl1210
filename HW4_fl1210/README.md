@@ -15,6 +15,7 @@ Multiple regression	|  8, No. of suicide films (total), No. of suicide films (%)
 Logistic regression	| 1, Source of dental knowledge| Categorical | 1, Oral health behavior| categorical | 1, gender| Categorical  | 	The aim of this study was to investigate the associations between the source of dental knowledge and oral health behavior in a group of students at a university in Japan. |The source of dental knowledge does not influence oral health behavior | 0.05 | [Associations between dental knowledge, source of dental knowledge and oral health behavior in Japanese university students: A cross-sectional study](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0179298) |
   |||||||||
 
+# FBB good, interesting papers too
 
 ## Assignment 3: Reproduce the analysis of the Hard to Employ program in NY:
 
