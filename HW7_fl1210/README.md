@@ -7,7 +7,7 @@ Work done by myself.
 
 ## Assignment 1: Finish your Citibike miniproject
 
-I finished Citibike analysis in HW3.The suggestion made by my classmate are incorporated and discussed.
+I finished Citibike analysis in HW3.The suggestion made by my classmate is incorporated and discussed.
 
 Authorea article:
 
