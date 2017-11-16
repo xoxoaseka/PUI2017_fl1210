@@ -2,7 +2,7 @@
 
 Work done by myself.
 
-I created a plot show the top 50 most visited Citi Bike stations to rent a bike, which are the start stations have the most records in Citi Bike data of January 2015.
+I created a plot show the top 50 most visited Citi Bike stations to rent a bike, which are the start stations have the most records of starting a trip in Citi Bike data of January 2015.
 
 ![Alt text](plot_fl1210.png)
 
